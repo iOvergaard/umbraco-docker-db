@@ -6,3 +6,4 @@
 4. Launch your Umbraco installation
     - If you copied the unattended appsettings it should just work
     - If not, you need to add the connection details (find them in [docker-compose.yml](https://github.com/iOvergaard/umbraco-docker-db/blob/main/docker-compose.yml))
+5. Write `docker-compose down` to shut down the database
